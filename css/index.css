@@ -1,0 +1,812 @@
+header{
+    /* Фон на заголовке. */
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    left: 0px;
+    top: 0px;
+    background: url(../images/hand.png);
+    background-size: cover;
+
+    color: white;
+    font-family: Roboto;
+}
+.menu{
+    /* Главное меню. */
+    color: white;
+    display: flex;
+    justify-content: space-around;
+	align-items: Center;
+
+    list-style: none;
+
+    margin-left:20%;
+    margin-right:20%;
+
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 100%;
+    opacity: 0.9;
+    Vertical-align: Top;
+}
+.element-menu{
+    justify-content: flex-start;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.enter{
+    /* Кнопка в заголовке. */
+    background-color: #C89AFC; 
+    border: none;
+    border-radius: 50px;
+    Padding: 10px, 30px, 10px, 30px;
+    color: white;
+    padding: 13px 32px;
+    text-align: center;
+    font-size: 16px;
+
+    margin-left: 85%;
+    margin-top: 1%;
+    margin-bottom: -150px;
+}
+.heading-text{
+     /* Первый курс по компьютерной сборке. */
+
+    position: absolute;
+    width: 620px;
+    height: 180px;
+    left: 200px;
+    top: 200px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 140%;
+}
+.logo{
+    /* Логотип.*/
+
+    position: absolute;
+    left: 1%;
+    top: 2%;
+
+    height: 45px;
+    width: auto;
+}
+
+
+/* Секция таймера.  */
+ 
+  .countdown {
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+
+    margin-left: 200px;
+    margin-top: 350px;
+  }
+  
+  .countdown-number {
+    padding: 10px;
+    border-radius: 3px;
+    background: #252727;
+    display: inline-block;
+  }
+  
+  .countdown-time {
+    padding: 15px;
+    border-radius: 3px;
+    background: rgba(18, 18, 18, 1);
+
+    display: inline-block;
+  }
+  
+  .countdown-text {
+    display: block;
+    padding-top: 5px;
+    font-size: 16px;
+    
+  }
+
+ 
+  .donate{
+    position: absolute;
+    width: 100%;
+    height: 130px;
+    left: 0px;
+    top: 610px;
+
+    background: #121212;
+  }
+  .text0{
+    /* Учеников всего. */
+  position: absolute;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+
+  font-size: 16px;
+  line-height: 150%;
+  left: 300px;
+  color: white;
+  opacity: 0.4;
+  }
+  .text1{
+    /* Учеников всего 200. */
+  position: absolute;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  
+  font-size: 16px;
+  line-height: 150%;
+  left: 530px;
+  color: white;
+  }
+  .text2{
+    /* Успешно закончили курс. */
+  position: absolute;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+
+  font-size: 16px;
+  line-height: 150%;
+  left: 300px;
+  top: 45px;
+  color: white;
+  opacity: 0.4;
+  }
+  .text3{
+    /* Успешно закончили курс. 250 */
+  position: absolute;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+
+  font-size: 16px;
+  line-height: 150%;
+  left: 530px;
+  top: 45px;
+  color: white;
+  }
+  .text4{
+    /* Заработано учениками. */
+  position: absolute;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+
+  font-size: 16px;
+  line-height: 150%;
+  left: 700px;
+  color: white;
+  opacity: 0.4;
+  }
+  .text5{
+    /* Заработано учениками 400. */
+  position: absolute;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+
+  font-size: 16px;
+  line-height: 150%;
+  left: 900px;
+  color: white;
+  }
+  .polos{
+  position: absolute;
+  width: 270px;
+  height: 6px;
+  left: 700px;
+  top: 45px;
+
+  background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+
+  }
+  .poloss{
+    position: absolute;
+    width: 330px;
+    height: 6px;
+    left: 970px;
+    top: 45px;
+  
+    background: #FFFFFF;
+  
+    }
+
+    .text6{
+      /* 0 */
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+  
+    font-size: 16px;
+    line-height: 150%;
+    left: 700px;
+    top: 55px;
+    color: white;
+    opacity: 0.4;
+    }
+
+    .text7{
+      /* 1 000 000 */
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+  
+    font-size: 16px;
+    line-height: 150%;
+    left: 1230px;
+    top: 55px;
+    color: white;
+    opacity: 0.4;
+    }
+
+  .enterу-donate{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+
+  position: absolute;
+  width: 169px;
+  height: 44px;
+  left: 50px;
+  top: 50px;
+
+  /* grad1 */
+
+  background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+  border-radius: 50px;
+ }
+ .button-text{
+  position: static;
+  width: 109px;
+  height: 24px;
+  left: 30px;
+  top: 10px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+
+  text-align: center;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+ }
+ .Center{
+  position: absolute;
+  width: 100%;
+  height: 2730px;
+  left: 0%;
+  top: 740px;
+
+  background: url(../images/fon.png);
+ }
+ .text-center-0{
+  position: absolute;
+  width: 502px;
+  height: 67px;
+  left: 800px;
+  top: 100px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 140%;
+
+  color: #FFFFFF;
+ }
+ .text-center-1{
+  position: absolute;
+  width: 436px;
+  height: 156px;
+  left: 800px;
+  top: 200px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 120%;
+
+  color: #FFFFFF;
+  opacity: 0.8;
+ }
+ .ramochka{
+  position: absolute;
+  border: 25px solid rgba(124, 106, 250, 1);
+  width: 430px;
+  height: 430px;
+  left: 112px;
+  top: 100px;
+ }
+ .pk-fon{
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 10px;
+  top: 20px;
+  background: url(../images/pk-fon.png);
+  background-size: cover;
+ }
+ /* Секция с быстрым стартом. */
+ .Center-bottom-text-1{
+
+  position: absolute;
+  width: 351px;
+  height: 67px;
+  left: 340px;
+  top: 800px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 140%;
+ 
+  color: #FFFFFF;
+ }
+ .element-bottom{
+  position: absolute;
+  width: 60px;
+  height: 43px;
+  left: 250px;
+  top: 825px;
+
+  transform: rotate(360deg);
+}
+.Center-bottom-text-2{
+    /* Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер */
+
+  position: absolute;
+  width: 411px;
+  height: 52px;
+  left: 317px;
+  top: 930px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  /* white */
+  color: #FFFFFF;
+
+  opacity: 0.5;
+}
+.numbers-100{
+  /* 100% */
+
+  position: absolute;
+  width: 89px;
+  height: 50px;
+  left: 312px;
+  top: 1100px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 140%;
+  /* or 50px */
+
+  /* white */
+  color: #FFFFFF;
+
+}
+
+.numbers-75{
+    /* 75% */
+  
+  position: absolute;
+  width: 89px;
+  height: 50px;
+  left: 612px;
+  top: 1100px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 140%;
+  /* or 50px */
+  
+  /* white */
+  color: #FFFFFF;
+  
+ }
+
+ .numbers-50{
+    /* 50% */
+  
+  position: absolute;
+  width: 89px;
+  height: 50px;
+  left: 862px;
+  top: 1100px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 140%;
+  /* or 50px */
+  
+  /* white */
+  color: #FFFFFF;
+  
+ }
+ .itog{
+    /* Итог */
+  
+  position: absolute;
+  width: 89px;
+  height: 50px;
+  left: 1112px;
+  top: 1100px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 140%;
+  /* or 50px */
+  
+  /* white */
+  color: #FFFFFF;
+  
+ }
+ .Rectangle1{
+    /* Rectangle 1 */
+
+  position: absolute;
+  width: 290px;
+  height: 75px;
+  left: 312px;
+  top: 1251px;
+
+  /* grad2 */
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+ }
+ .Rectangle2{
+    /* Rectangle 2 */
+
+  position: absolute;
+  width: 260px;
+  height: 55px;
+  left: 600px;
+  top: 1261px;
+
+  /* grad2 */
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+
+ }
+ .Rectangle3{
+  /* Rectangle 3 */
+
+  position: absolute;
+  width: 220px;
+  height: 25px;
+  left: 860px;
+  top: 1275px;
+
+  /* grad2 */
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+
+}
+
+.Rectangle4{
+  /* Rectangle4*/
+  position: absolute;
+  width: 200px;
+  height: 5px;
+  left: 1080px;
+  top: 1285px;
+
+  /* grad2 */
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.text-Rectangle-1{
+
+  position: absolute;
+  width: 200px;
+  height: 5px;
+  left: 312px;
+  top: 1335px;
+
+   font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 130%;
+
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+.text-Rectangle-2{
+
+  position: absolute;
+  width: 200px;
+  height: 5px;
+  left: 622px;
+  top: 1335px;
+
+   font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 130%;
+
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+.text-Rectangle-3{
+
+  position: absolute;
+  width: 200px;
+  height: 5px;
+  left: 880px;
+  top: 1335px;
+
+   font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 130%;
+
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+.text-Rectangle-4{
+
+  position: absolute;
+  width: 200px;
+  height: 5px;
+  left: 1100px;
+  top: 1335px;
+
+   font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 130%;
+
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+.Profession{
+  /* Получите профессию прямо сейчас */
+
+position: absolute;
+width: 810px;
+height: 67px;
+left: 305px;
+top: 2354px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 140%;
+/* or 67px */
+text-align: center;
+/* white */
+color: #FFFFFF;
+}
+
+.element-foother1{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 270px;
+  top: 2601px;
+}
+.element-foother2{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 630px;
+  top: 2601px;
+}
+.element-foother3{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 1030px;
+  top: 2601px;
+}
+.text-foother-1{
+  position: absolute;
+  width: 358px;
+  height: 104px;
+  left: 930px;
+  top: 2799px;
+
+   font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 120%;
+  text-align: center;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+.text-foother-2{
+  position: absolute;
+  width: 358px;
+  height: 104px;
+  left: 530px;
+  top: 2799px;
+
+   font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 120%;
+  text-align: center;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+.text-foother-3{
+  position: absolute;
+  width: 358px;
+  height: 104px;
+  left: 130px;
+  top: 2799px;
+
+   font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 120%;
+  text-align: center;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+
+.Foorher-text-over{
+  position: absolute;
+  width: 547px;
+  height: 67px;
+  left: 426px;
+  top: 3050px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 140%;
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.Foorher-text{
+  position: absolute;
+  width: 390px;
+  height: 52px;
+  left: 496px;
+  top: 3150px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  
+
+text-align: center;
+
+  text-align: center;
+
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+.input{
+  position: absolute;
+  width: 323px;
+  height: 32px;
+  left: 500px;
+  top: 3309px;
+
+  /* white */
+
+  background: #FFFFFF;
+  opacity: 0.25;
+  border-radius: 50px 0px 0px 50px;
+}
+.button-futher{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  left: 774px;
+  top: 3308px;
+
+  /* grad1 */
+
+  background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+  border-radius: 50px;
+}
+.button-text{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 190%;
+  /* identical to box height, or 24px */
+
+  text-align: center;
+
+  /* white */
+
+  color: #FFFFFF;
+}
+.element-foother-4{
+
+  position: absolute;
+  width: 65px;
+  height: auto;
+  left: 525px;
+  top: 3378px;
+ 
+}
+
+.element-foother-5{
+
+  position: absolute;
+  width: 75px;
+  height: auto;
+  left: 610px;
+  top: 3378px;
+  
+}
+
+.element-foother-6{
+
+  position: absolute;
+  width: 84px;
+  height: auto;
+  left: 690px;
+  top: 3374px;
+}
+
+.element-foother-7{
+
+  position: absolute;
+  width: 70px;
+  height: auto;
+  left: 780px;
+  top: 3381px;
+}
